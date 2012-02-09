@@ -1,0 +1,18 @@
+#!/usr/bin/env node
+
+/**
+ * Bldr - bin
+ * Copyright (C) 2012 Erin Carter <hi@dnvsfn.com> (http://github.com/ecarter)
+ * MIT Licensed
+ */
+
+var cli = require('clii');
+
+cli('bldr v0.0.1')
+  .option('-V, --verbose  Output all the things!')
+  .run( function (opts, args) {
+    
+    console.log('options:',opts);
+    console.log('arguments:',args);
+    
+  })
