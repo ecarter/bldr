@@ -1,8 +1,10 @@
 title: Welcome
 author: E. Carter
 date: 2012-02-09
-template: home
+view: home
 
 ---
 
-# Welcome to the Site
+## Welcome to the Site
+
+Have a look around and let us know what you think!
