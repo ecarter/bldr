@@ -15,7 +15,7 @@ describe('#build()', function(){
           view: 'home',
           content: '<h2>Welcome to the Site</h2>\n\n<p>Have a look around and let us know what you think!</p>'
       },
-      compiled: '<!DOCTYPE html>\n<html>\n<head>\n  <meta charset="utf-8">\n  <title>{{ title }}</title>\n</head>\n<body>\n  <div id="home-content">\n  <h2>Welcome to the Site</h2>\n\n<p>Have a look around and let us know what you think!</p>\n</div>\n</body>\n</html>\n',
+      compiled: '<!DOCTYPE html>\n<html>\n<head>\n  <meta charset="utf-8">\n  <title>Welcome</title>\n</head>\n<body>\n  <div id="home-content">\n  <h2>Welcome to the Site</h2>\n\n<p>Have a look around and let us know what you think!</p>\n</div>\n</body>\n</html>\n',
       saved: 'examples/site/public/index.html'
     };
   })
