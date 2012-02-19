@@ -6,13 +6,21 @@
  * MIT Licensed
  */
 
-var cli = require('clii');
+var Clii = require('clii')
+  , Bldr = require('../');
 
-cli('bldr v0.0.1')
-  .option('-V, --verbose  Output all the things!')
-  .run( function (opts, args) {
+Clii('bldr v0.0.1')
+  .option('-s, --source <dir>  Source files')
+  .option('-d, --dest <dir>  Output directory')
+  .option('-v, --views <dir>  Views directory')
+  .run( function (options, args) {
     
-    console.log('options:',opts);
-    console.log('arguments:',args);
+    options.source = options.source || './';
+    options.dest = options.dest || './build';
+    options.views = options.views || './views';
     
+    Bldr().run( options, function () { 
+      console.log('built.');
+    });
+
   })

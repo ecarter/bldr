@@ -19,7 +19,8 @@
     "node": ">=0.4.12"
   },
   "dependencies": {
-    "github-flavored-markdown": ">=1.0.0"
+    "clii": "git+ssh://git@github.com:ecarter/clii.git"
+  , "github-flavored-markdown": ">=1.0.0"
   },
   "devDependencies": {
     "mocha": ">=0.11.0"
