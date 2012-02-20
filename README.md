@@ -3,13 +3,13 @@
   a static site builder
 
 
-# Requirements
+## Requirements
 
 * [NodeJS](http://nodejs.org)
 * [NPM](http://npmjs.org) - Node Package Manager
 
 
-# Dependencies
+## Dependencies
 
 * [Clii](http://github.com/ecarter/clii) - command line toolkit
 * [Github Flavored Markdown](https://github.com/isaacs/github-flavored-markdown)
