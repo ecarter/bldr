@@ -15,13 +15,6 @@
 
 ---
 
-## lib / parse.js
-
-* __[line 34](.//lib/parse.js#L34) better regexp:__  ```} else if ( /^(.*): (.*)$/.test(line) ) {```
-
-
----
-
 ## lib / read.js
 
 * __[line 28](.//lib/read.js#L28) "src" vs "source" needs to be determined globally:__  ```self._source = self._source || path;```
@@ -35,7 +28,15 @@
 
 ## lib / run.js
 
-* __[line 89](.//lib/run.js#L89) what gets passed to #run() callback?:__  ```done.call(self);```
+* __[line 14](.//lib/run.js#L14) table of contents / file map that in view locals__ 
+* __[line 91](.//lib/run.js#L91) what gets passed to #run() callback?:__  ```done.call(self);```
+
+
+---
+
+## lib / parse.js
+
+* __[line 34](.//lib/parse.js#L34) better regexp:__  ```} else if ( /^(.*): (.*)$/.test(line) ) {```
 
 
 ---
