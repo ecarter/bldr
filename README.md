@@ -5,7 +5,7 @@
 
 ## Requirements
 
-* [NodeJS](http://nodejs.org)
+* [Node.js](http://nodejs.org)
 * [NPM](http://npmjs.org) - Node Package Manager
 
 
