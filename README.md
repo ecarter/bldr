@@ -24,7 +24,7 @@
 
 ## Test
 
-Testing done with [Mocha](http://visionmedia.github.com/mocha)
+Testing done with [Mocha](http://mochajs.org/)
 
     $ make test
 
